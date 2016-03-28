@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+<LinearLayout 
+	    android:id="@+id/linearLayout1" 
+	    android:layout_width="fill_parent" 
+	    android:background="#000000"
+	    android:orientation="horizontal"
+	    android:layout_height="60dip">
+	    
+        <ImageView 
+	        android:layout_width="fill_parent" 
+	        android:layout_weight="3.5"
+	        android:id="@+id/btnBackGridAlbum" 
+	        android:layout_height="60dip" 
+	        android:gravity="center"
+	        android:src="@drawable/back1">
+        </ImageView>
+        
+        
+        <TextView 
+	        android:text="Albums" 
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:id="@+id/textView1" 
+	        android:layout_width="fill_parent" 
+	        android:textColor="#ADFF2F"
+	      	android:textStyle="bold"
+	      	android:textSize="30dip"
+	        android:layout_height="60dip">
+        </TextView>
+        
+        <ImageView 
+        	android:id="@+id/btnNowGridAlbum" 
+	        android:layout_width="fill_parent" 
+	        android:layout_weight="3.5"
+			android:paddingRight="4dip"
+	        android:gravity="center"
+	        android:src="@drawable/now"
+	        android:layout_height="60dip">
+        </ImageView>
+	    
+	    
+	    
+    </LinearLayout>
+    
+     <LinearLayout  
+	    android:layout_width="fill_parent"
+	    android:background="#ff8c00"
+	    android:layout_height="2dip">
+	    
+	 </LinearLayout>
+
+
+<GridView 
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:columnWidth="90dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+/>
+
+
+</LinearLayout>

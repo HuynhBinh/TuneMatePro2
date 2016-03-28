@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <LinearLayout 
+	    android:id="@+id/linearLayout1" 
+	    android:layout_width="fill_parent" 
+	    android:background="#000000"
+	    android:orientation="horizontal"
+	    android:layout_height="60dip">
+	    
+        <ImageView 
+	        android:layout_width="fill_parent" 
+	        android:layout_weight="3.5"
+	        android:gravity="center"
+	        android:id="@+id/btnBackTourial" 
+	        android:layout_height="60dip" 
+	        android:src="@drawable/back1">
+        </ImageView>
+        
+        
+        <TextView 
+	        android:text="Tourial" 
+	        android:gravity="center"
+	        android:id="@+id/textView1" 
+	        android:layout_weight="1"
+	        android:layout_width="fill_parent" 
+	        android:textColor="#ADFF2F"
+	      	android:textStyle="bold"
+	      	android:textSize="30dip"
+	        android:layout_height="60dip">
+        </TextView>
+        
+        <ImageView 
+        	android:id="@+id/btnNowTour" 
+	        android:layout_width="fill_parent" 
+	        android:layout_weight="3.5"
+	        android:paddingRight="4dip"
+	        android:gravity="center"
+	        android:src="@drawable/now"
+	        android:layout_height="60dip">
+        </ImageView>
+	    
+	    
+    </LinearLayout>
+    
+    <LinearLayout  
+	    android:layout_width="fill_parent"
+	    android:background="#ff8c00"
+	    android:layout_height="2dip">
+	    
+	 </LinearLayout>
+	 
+	 
+	   <ScrollView 
+	   android:layout_width="fill_parent"
+       android:layout_height="fill_parent"> 
+    			
+    	
+    		<LinearLayout  
+			android:layout_width="fill_parent"
+			android:orientation="vertical"
+			android:layout_height="fill_parent">
+
+	 
+					 	    <LinearLayout  
+							android:layout_width="fill_parent"
+							android:background="#ff8c00"
+							android:layout_height="30dip">
+							    
+							        <TextView 
+							        android:text="Playing Screen" 
+							        android:gravity="center"
+							        android:layout_width="fill_parent" 
+							        android:textColor="#ADFF2F"
+							      	android:textStyle="bold"
+							      	android:textSize="20dip"
+							        android:layout_height="30dip">
+						        	</TextView>
+							    
+							    
+							 </LinearLayout>
+    
+
+    			
+    						<LinearLayout 
+							android:orientation="vertical"
+							android:layout_width="fill_parent"
+							android:paddingTop="10dip"
+							android:layout_height="fill_parent">
+							
+								<exam.tunemate2.Control
+								android:id="@+id/c14"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+    
+								<exam.tunemate2.Control
+								android:id="@+id/c1"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+				
+						
+								<exam.tunemate2.Control
+								android:id="@+id/c2"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+				
+						
+								<exam.tunemate2.Control
+								android:id="@+id/c3"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c4"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<!-- <exam.tunemate2.Control
+								android:id="@+id/c5"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c6"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" /> -->
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c7"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c8"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c9"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c21"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c22"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c10"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c23"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c11"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c25"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c12"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c24"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c13"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								
+								
+								<exam.tunemate2.Control
+								android:id="@+id/c15"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:layout_marginTop="5dip"
+								android:layout_marginBottom="5dip" />
+								
+								
+								
+							
+								
+								
+								
+							
+				
+							</LinearLayout>
+
+		
+						    <LinearLayout  
+						    android:layout_width="fill_parent"
+						    android:background="#ff8c00"
+						    android:layout_height="30dip">
+					    
+					        <TextView 
+					        android:text="Playlist Screen" 
+					        android:gravity="center"
+					        android:layout_width="fill_parent" 
+					        android:textColor="#ADFF2F"
+					      	android:textStyle="bold"
+					      	android:textSize="20dip"
+					        android:layout_height="30dip">
+				        	</TextView>
+					    
+					    
+					 		</LinearLayout>
+					 		
+					 		
+					 		<LinearLayout 
+							android:orientation="vertical"
+							android:layout_width="fill_parent"
+							android:paddingTop="10dip"
+							android:layout_height="fill_parent">
+							
+								<exam.tunemate2.Control
+									android:id="@+id/c16"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="5dip"
+									android:layout_marginBottom="5dip" />
+									
+								<exam.tunemate2.Control
+									android:id="@+id/c17"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="5dip"
+									android:layout_marginBottom="5dip" />
+									
+								<exam.tunemate2.Control
+									android:id="@+id/c18"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="5dip"
+									android:layout_marginBottom="5dip" />
+									
+								<exam.tunemate2.Control
+									android:id="@+id/c19"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="5dip"
+									android:layout_marginBottom="5dip" />
+									
+									<exam.tunemate2.Control
+									android:id="@+id/c28"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="5dip"
+									android:layout_marginBottom="5dip" />
+									
+									
+								<exam.tunemate2.Control
+									android:id="@+id/c20"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="5dip"
+									android:layout_marginBottom="5dip" />
+							
+							</LinearLayout>
+							
+							
+							
+							<LinearLayout  
+						    android:layout_width="fill_parent"
+						    android:background="#ff8c00"
+						    android:layout_height="30dip">
+					    
+					        <TextView 
+					        android:text="Others screen" 
+					        android:gravity="center"
+					        android:layout_width="fill_parent" 
+					        android:textColor="#ADFF2F"
+					      	android:textStyle="bold"
+					      	android:textSize="20dip"
+					        android:layout_height="30dip">
+				        	</TextView>
+					    
+					    
+					 		</LinearLayout>
+					 		
+					 		<LinearLayout 
+							android:orientation="vertical"
+							android:layout_width="fill_parent"
+							android:paddingTop="10dip"
+							android:layout_height="fill_parent">
+							
+								<exam.tunemate2.Control
+									android:id="@+id/c26"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="5dip"
+									android:layout_marginBottom="5dip" />
+									
+								<exam.tunemate2.Control
+									android:id="@+id/c29"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="5dip"
+									android:layout_marginBottom="5dip" />
+									
+								<exam.tunemate2.Control
+									android:id="@+id/c27"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:layout_marginTop="5dip"
+									android:layout_marginBottom="5dip" />
+									
+									
+				
+							
+							</LinearLayout>
+							
+							
+							
+					 		
+					 		
+	 
+	 			</LinearLayout>
+	 
+			</ScrollView>
+	
+</LinearLayout>
+

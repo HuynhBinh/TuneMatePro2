@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="exam.tunemate2"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application  android:name="GlobalVariable" android:icon="@drawable/icon" android:label="@string/app_name"  >
+        
+        <activity 
+        		  android:name=".TuneMateProVer2"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>          
+        </activity>
+        
+        
+        <activity android:name=".Playlist"
+                  android:label="Play list"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait">
+        </activity>
+        
+        
+        <activity android:name=".FolderList"
+                  android:label="Play list"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait">          
+        </activity>
+        
+        
+         <activity android:name=".FolderActivity"
+                  android:label="Folders"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait"/>   
+        
+          <activity android:name=".SongsInFolder"
+                  android:label="Songs"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait"/>   
+                  
+        <activity android:name=".CoverFlowActivity"
+                  android:label="Cover Flow"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:configChanges="orientation">
+        </activity>
+                  
+       	<activity android:name=".Album"
+                  android:label="Albums"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:configChanges="orientation"> 
+        </activity>
+        
+        <activity android:name=".Galery"
+                  android:label="Galery"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:configChanges="orientation"> 
+        </activity>
+        
+        
+        <activity android:name=".SongInAlbum"
+                  android:label="Songs"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:configChanges="orientation"> 
+        </activity>
+        
+        <activity android:name=".SongInAlbumGLR"
+                  android:label="Songs"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:configChanges="orientation"> 
+        </activity>
+        
+        <activity android:name=".SongInAlbumGV"
+                  android:label="Songs"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:configChanges="orientation"> 
+        </activity>
+        
+        <activity android:name=".GridViewActivity"
+                  android:label="Albums"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:configChanges="orientation"> 
+        </activity>
+        
+        
+         <activity android:name=".SongSelect"
+                  android:label="Choose the songs"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait">
+            
+        </activity>
+        
+         <activity android:name=".SongSelected"
+                  android:label="Songs"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait">
+            
+        </activity>
+        
+        <activity android:name=".AllSongActivity"
+                  android:label="All musics"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait">
+            
+        </activity>
+        
+        <activity android:name=".AllSongActivity1"
+                  android:label="All musics"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait">
+            
+        </activity>
+        
+        <activity android:name=".Library"
+                  android:label="Library"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:screenOrientation="portrait">
+            
+        </activity>
+        
+        
+        <activity
+            android:name="GestureBuilderActivity"
+            android:label="@string/application_name">
+        </activity>
+        
+        <activity
+            android:name="CreateGestureActivity"
+            android:label="@string/label_create_gesture">
+        </activity>
+        
+         <activity
+            android:name="Tourial"
+            android:label="Tourial"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <receiver android:name=".CallReciever">
+			<intent-filter>
+			    <action android:name="android.intent.action.PHONE_STATE" />
+			</intent-filter>
+		</receiver>
+        
+        
+        <service android:exported="false" android:name=".MusicStore">
+            <intent-filter>
+                <action android:name="exam.tunemate2.action.PLAY" />
+                <action android:name="exam.tunemate2.action.NEXT" />
+                <action android:name="exam.tunemate2.action.RANDOM" />
+                <action android:name="exam.tunemate2.action.PREVIOUS" />
+                <action android:name="exam.tunemate2.action.PAUSE" />
+                <action android:name="exam.tunemate2.action.STOP" />
+                <action android:name="exam.tunemate2.action.RESTORE" />
+            </intent-filter>
+        </service>
+          
+    </application>
+    
+   
+</manifest>

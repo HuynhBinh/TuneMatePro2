@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+ 
+
+
+ 	<exam.tunemate2.CoverFlow	
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/coverflow">
+	</exam.tunemate2.CoverFlow>
+
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="40dip"
+	  android:orientation="vertical">
+	 </LinearLayout>
+
+
+	<LinearLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:gravity="center"
+	  android:orientation="vertical">
+	 
+
+		<TextView 
+			 android:layout_height="wrap_content" 
+			 android:gravity="center"
+			 android:textColor="#4169E1"
+			 android:layout_width="wrap_content"  
+			 android:textAppearance="?android:attr/textAppearanceLarge" 
+			 android:id="@+id/textView1">
+		 </TextView>
+	 
+	</LinearLayout>
+  
+</LinearLayout>

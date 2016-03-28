@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_horizontal|center_vertical">
+	
+	
+	<LinearLayout 
+	    android:id="@+id/linearLayout1" 
+	    android:layout_width="fill_parent" 
+	    android:background="#000000"
+	    android:orientation="horizontal"
+	    android:layout_height="60dip">
+	    
+        <ImageView 
+	        android:layout_width="fill_parent" 
+	        android:layout_weight="3.5"
+	        android:id="@+id/btnBackSongSelect" 
+	        android:layout_height="60dip" 
+	        android:gravity="center"
+	        android:src="@drawable/back1">
+        </ImageView>
+        
+        
+        <TextView 
+	        android:text="Select songs" 
+	        android:id="@+id/textView1" 
+	        android:gravity="center"
+	        android:layout_weight="1"
+	        android:layout_width="fill_parent" 
+	        android:textColor="#ADFF2F"
+	      	android:textStyle="bold"
+	      	android:textSize="30dip"
+	        android:layout_height="60dip">
+        </TextView>
+        
+         <ImageView 
+         	android:id="@+id/btnNowSSelect" 
+	        android:layout_width="fill_parent" 
+	        android:layout_weight="3.5"
+			android:paddingRight="4dip"
+	        android:gravity="center"
+	        android:src="@drawable/now"
+	        android:layout_height="60dip">
+        </ImageView>
+	    
+	    
+    </LinearLayout>
+    
+    <LinearLayout  
+	    android:layout_width="fill_parent"
+	    android:background="#ff8c00"
+	    android:layout_height="2dip">
+	 </LinearLayout>
+
+
+	<RelativeLayout android:layout_width="fill_parent"
+    				android:layout_height="wrap_content"
+    				android:paddingTop="10dip"
+    				android:layout_weight="15"
+    				android:gravity="center_horizontal|center_vertical">
+
+		<ListView 
+			android:id="@+id/android:list"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" />
+
+	</RelativeLayout>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:orientation="horizontal"
+	    android:id="@+id/linearLayout1" 
+	    android:layout_height="wrap_content" 
+	    android:paddingTop="15dip"
+	    android:gravity="center_horizontal|center_vertical"
+	    android:layout_alignParentBottom="true">
+			
+			<Button 
+		    android:text="      Ok      " 
+		    android:id="@+id/button1" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="60dip">
+		    </Button>
+		
+	</LinearLayout>
+	
+</LinearLayout>
+
+
